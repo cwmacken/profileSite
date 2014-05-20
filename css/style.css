@@ -1,0 +1,100 @@
+/*.fixed{
+	position: fixed;
+}*/
+body{
+	font-family: helvetica, sans-serif;
+}
+a:link{
+	text-decoration: none;
+	color:black;
+}
+a:visited{
+	color:black;
+	text-decoration: none;
+	
+}
+a:hover{
+	text-decoration: none;
+	color:white;
+	background-color: black;
+	border-top-left-radius: 3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	padding:1px; 
+
+}
+
+#lander,#work,#about,#contact{
+	height: 1300px;
+	margin-top: 5%;
+}
+.menu{
+
+	margin-top: 7%
+}
+/*.blackbg{
+	background-color: black;
+	color:white;
+}*/
+.btn-outline-inverse{
+	color:black;
+	background-color: transparent;
+	border-color: black;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+.btn-outline-inverse:visited{
+	color:black;
+	background-color: transparent;
+	border-color: black;
+
+}
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active {
+  color: white;
+  background-color: black;
+  border-color: white;
+  padding:6px;
+}
+
+.contactlink:hover{
+	padding: 6px 12px 6px 12px;
+}
+
+/*.homebutton {
+	background-color:#f24537;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 50px #810e05;
+}.homebutton:hover {
+	background-color:#c62d1f;
+}.homebutton:active {
+	position:relative;
+	top:1px;
+}
+*/
