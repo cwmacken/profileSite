@@ -33,7 +33,7 @@ $(function(){
 				workDetailArry.eq(i).children().fadeIn(700);
 				workArry.unbind();
 				workArry.eq(i).click(function(){
-					var self = $(this)
+					var self = $(this);
 					self.removeClass("worklink-black");
 					self.next().children().fadeOut(700);
 					workArry.fadeIn(700);
@@ -42,11 +42,10 @@ $(function(){
 						hideShow(this);
 					});
 
-				})
+				});
 
 			}
 		}
-
 		return false;
 
 	};
