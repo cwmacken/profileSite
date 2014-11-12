@@ -58,11 +58,10 @@ $(function(){
 						hideShow(this);
 					});
 
-				})
+				});
 
 			}
 		}
-
 		return false;
 
 	};
