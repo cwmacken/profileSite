@@ -26,7 +26,7 @@ $(function(){
 		for(var i = 0; i < workArry.length; i++){
 
 			if(workArry.eq(i).attr("data-name") !== name){
-				workArry.eq(i).toggleClass("col-sm-3", "col-sm-11");
+				// workArry.eq(i).toggleClass("col-sm-3", "col-sm-11");
 				workArry.eq(i).html('');
 			}else{
 				workArry.eq(i).toggleClass("worklink-black");
@@ -37,7 +37,7 @@ $(function(){
 					var self = $(this);
 
 					self.toggleClass("worklink-black");
-					workArry.toggleClass("col-sm-3", "col-sm-11");
+					// workArry.toggleClass("col-sm-3", "col-sm-11");
 					workArry.click(function() {
 						hideShow(this);
 					});
